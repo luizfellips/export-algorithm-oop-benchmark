@@ -58,7 +58,7 @@ public:
         std::getline(dateStream, month, '/');
         std::getline(dateStream, year, '/');
 
-        // Formatar no formato YYYY-MM-DD
+        // YYYY-MM-DD
         return year + "-" + month + "-" + day;
     }
 
